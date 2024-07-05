@@ -15,7 +15,7 @@ CTYPE = enums.ChatType
 inlinegc = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="Owner", url=""), #isi link telegram 
+            InlineKeyboardButton(text="Owner", url=f"http://t.me/{OWNER_NAME}"), #isi link telegram 
             InlineKeyboardButton(text="Channel", url="") #isi link channel store
         ]
     ]
