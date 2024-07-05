@@ -16,7 +16,7 @@ inlinegc = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="Owner", url=f"http://t.me/{OWNER_NAME}"), #isi link telegram 
-            InlineKeyboardButton(text="Channel", url="") #isi link channel store
+            InlineKeyboardButton(text="Channel", url=f"https://t.me/apihowstore") #isi link channel store
         ]
     ]
 )
@@ -28,7 +28,7 @@ inline = InlineKeyboardMarkup(
         ],
         [
                     InlineKeyboardButton(text="Creator", url=f"http://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton(text="Channel", url="") #isi link channel store
+                    InlineKeyboardButton(text="Channel", url=f"https://t.me/apihowstore") #isi link channel store
         ]
     ]
 )
